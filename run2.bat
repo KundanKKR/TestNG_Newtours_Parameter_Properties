@@ -1,0 +1,2 @@
+cd Selenium\VirtusaTestNG_Newtours_Parameter_Properties
+mvn test

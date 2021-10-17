@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[actual title is Welcome: Mercury Tours]]>
+    </line>
+    <line>
+      <![CDATA[expected title is Welcome: Mercury Tours]]>
+    </line>
+    <line>
+      <![CDATA[actual title is Welcome: Mercury Tours]]>
+    </line>
+    <line>
+      <![CDATA[expected title is Welcome: Mercury Tours]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-09-24T15:17:40 IST" name="Test Automation of Newtours" finished-at="2021-09-24T15:19:01 IST" duration-ms="80572">
+    <groups>
+    </groups>
+    <test started-at="2021-09-24T15:17:40 IST" name="Functional Testing" finished-at="2021-09-24T15:19:01 IST" duration-ms="80572">
+      <class name="com.qa.testscripts.TC_Newtours_001">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Newtours_001@50a7bc6e]" started-at="2021-09-24T15:17:41 IST" name="setUp" finished-at="2021-09-24T15:18:20 IST" duration-ms="39766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://demo.guru99.com/test/newtours/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTitle()[pri:0, instance:com.qa.testscripts.TC_Newtours_001@50a7bc6e]" started-at="2021-09-24T15:18:20 IST" name="validateTitle" finished-at="2021-09-24T15:18:20 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[actual title is Welcome: Mercury Tours]]>
+            </line>
+            <line>
+              <![CDATA[expected title is Welcome: Mercury Tours]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method signature="validateTitle()[pri:0, instance:com.qa.testscripts.TC_Newtours_001@50a7bc6e]" started-at="2021-09-24T15:18:20 IST" name="validateTitle" finished-at="2021-09-24T15:18:20 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[actual title is Welcome: Mercury Tours]]>
+            </line>
+            <line>
+              <![CDATA[expected title is Welcome: Mercury Tours]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method signature="isTitleInUpperCase()[pri:1, instance:com.qa.testscripts.TC_Newtours_001@50a7bc6e]" started-at="2021-09-24T15:18:20 IST" name="isTitleInUpperCase" finished-at="2021-09-24T15:18:20 IST" duration-ms="23" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title is not in upper case expected [WELCOME: MERCURY TOURS] but found [Welcome: Mercury Tours]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title is not in upper case expected [WELCOME: MERCURY TOURS] but found [Welcome: Mercury Tours]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at com.qa.testscripts.TC_Newtours_001.isTitleInUpperCase(TC_Newtours_001.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTitleInUpperCase -->
+        <test-method signature="UPTextbox()[pri:3, instance:com.qa.testscripts.TC_Newtours_001@50a7bc6e]" started-at="2021-09-24T15:18:21 IST" name="UPTextbox" finished-at="2021-09-24T15:18:21 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UPTextbox -->
+        <test-method signature="isSigninBtnEnabled()[pri:4, instance:com.qa.testscripts.TC_Newtours_001@50a7bc6e]" started-at="2021-09-24T15:18:21 IST" name="isSigninBtnEnabled" finished-at="2021-09-24T15:18:21 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSigninBtnEnabled -->
+        <test-method signature="login()[pri:4, instance:com.qa.testscripts.TC_Newtours_001@50a7bc6e]" started-at="2021-09-24T15:18:21 IST" name="login" finished-at="2021-09-24T15:18:25 IST" duration-ms="4036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="flight()[pri:5, instance:com.qa.testscripts.TC_Newtours_001@50a7bc6e]" started-at="2021-09-24T15:18:25 IST" name="flight" finished-at="2021-09-24T15:18:27 IST" duration-ms="1412" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Book a flight] but found [Find a Flight: Mercury Tours:]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Book a flight] but found [Find a Flight: Mercury Tours:]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.qa.testscripts.TC_Newtours_001.flight(TC_Newtours_001.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight -->
+        <test-method signature="isRoundTripSelected()[pri:6, instance:com.qa.testscripts.TC_Newtours_001@50a7bc6e]" started-at="2021-09-24T15:18:27 IST" name="isRoundTripSelected" finished-at="2021-09-24T15:18:29 IST" duration-ms="2953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isRoundTripSelected -->
+        <test-method signature="fillAllDetails()[pri:7, instance:com.qa.testscripts.TC_Newtours_001@50a7bc6e]" started-at="2021-09-24T15:18:29 IST" name="fillAllDetails" finished-at="2021-09-24T15:18:59 IST" duration-ms="29079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillAllDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.TC_Newtours_001@50a7bc6e]" started-at="2021-09-24T15:18:59 IST" name="tearDown" finished-at="2021-09-24T15:19:01 IST" duration-ms="2502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.TC_Newtours_001 -->
+    </test> <!-- Functional Testing -->
+  </suite> <!-- Test Automation of Newtours -->
+</testng-results>

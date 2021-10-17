@@ -1,0 +1,3 @@
+com\qa\testscripts\TC_Newtours_001.class
+com\qa\testscripts\TestBase.class
+com\qa\pages\NewtoursPages.class

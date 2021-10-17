@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 83.428 s <<< FAILURE! - in TestSuite
+isTitleInUpperCase(com.qa.testscripts.TC_Newtours_001)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: Title is not in upper case expected [WELCOME: MERCURY TOURS] but found [Welcome: Mercury Tours]
+	at com.qa.testscripts.TC_Newtours_001.isTitleInUpperCase(TC_Newtours_001.java:27)
+
+flight(com.qa.testscripts.TC_Newtours_001)  Time elapsed: 1.413 s  <<< FAILURE!
+java.lang.AssertionError: expected [Book a flight] but found [Find a Flight: Mercury Tours:]
+	at com.qa.testscripts.TC_Newtours_001.flight(TC_Newtours_001.java:62)
+
