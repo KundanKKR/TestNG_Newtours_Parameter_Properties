@@ -1,2 +1,2 @@
-cd Selenium\VirtusaTestNG_Newtours_Parameter_Properties
+cd Selenium\TestNG_Newtours_Parameter_Properties
 mvn test
