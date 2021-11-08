@@ -55,7 +55,7 @@ public class TestBase
 		driver.get(url);
 		driver.manage().window().maximize();
 		js=(JavascriptExecutor)driver;
-		file=new FileInputStream("C:\\Users\\KUNDAN KUMAR RAI\\Selenium\\VirtusaTestNG_Newtours_Parameter_Properties\\src\\test\\java\\com\\qa\\testdata\\Data.properties");
+		file=new FileInputStream("C:\\Users\\KUNDAN KUMAR RAI\\Selenium\\TestNG_Newtours_Parameter_Properties\\src\\test\\java\\com\\qa\\testdata\\Data.properties");
 		prop=new Properties();
 		prop.load(file);
 	}
